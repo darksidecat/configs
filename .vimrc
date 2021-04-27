@@ -31,6 +31,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'dracula/vim', {'name':'dracula'}
+Plugin 'doums/darcula'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -64,7 +65,7 @@ if has('gui_running')
   set background=dark
   colorscheme solarized
 else
-  colorscheme dracula
+  colorscheme darcula
 
 endif
 
