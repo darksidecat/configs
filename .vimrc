@@ -24,14 +24,10 @@ Plugin 'nvie/vim-flake8'
 Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree'
-"Plugin 'plytophogy/vim-virtualenv'
-"Plugin 'PieterjanMontens/vim-pipenv'
-Plugin 'petobens/poet-v'
 Plugin 'vim-airline/vim-airline'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'ryanoasis/vim-devicons'
-Plugin 'dracula/vim', {'name':'dracula'}
-Plugin 'doums/darcula'
+Plugin 'blueshirts/darcula'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -57,6 +53,7 @@ au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
 set encoding=utf-8
 
+set mouse=a
 
 let python_highlight_all=1
 syntax on
@@ -72,3 +69,4 @@ endif
 set nu
 
 map <C-n> :NERDTreeToggle<CR>
+
